@@ -1,0 +1,126 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+#a {
+    color: purple;
+}
+i {
+    font-size: 2rem;
+    padding-right: 5rem;
+    color: purple;
+}
+.a {
+    background-color: purple;
+    padding: 5rem 0rem;
+    text-align: center;
+}
+
+.a > p {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 0rem 4rem;
+    padding-bottom: 6rem;
+}
+.b {
+    padding: 2rem;
+    text-align: center;
+}
+.b > h1 {
+    font-size: 3rem;
+}
+.b > p {
+    font-size: 1.5rem;
+}
+.d {
+    padding: 6rem;
+    text-align: center;
+    background-color: rgb(215, 215, 215);
+}
+.d > h1 {
+    font-size: 3rem;
+}
+.d > p {
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.e {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.e > ul {
+    margin: 2rem;
+    text-align: start;
+}
+.e  a {
+    text-decoration-color: var(--header);
+}
+.e  a:hover {
+    color: var(--header);
+}
+.f {
+    padding: 6rem;
+    text-align: center;
+}
+.f > h1 {
+    font-size: 3.5rem;
+}
+.f > p {
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.col > .card > i {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.h {
+    text-align: center;
+    padding: 6rem;
+    background-color: rgb(224, 223, 223);
+}
+.i > h1 {
+    color: rgb(69, 141, 243);
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.j {
+    text-align: center;
+    padding: 6rem;
+}
+.j > h1 {
+    font-size: 3rem;
+}
+.j > p {
+    font-size: 2rem;
+}
+.j > input {
+    width: 30vw;
+}
+.j > button {
+    background-color: purple;
+    color: white;
+    padding: 0rem 2rem;
+    margin: -2rem;
+}
+nav  a  {
+    color: white;
+}
+.home li {
+    margin: 0rem 2rem;
+    color: white;
+}
+ul {
+    padding: 1rem;
+}
+@media (min-width:449px) {
+
+}
